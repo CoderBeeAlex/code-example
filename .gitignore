@@ -1,0 +1,5 @@
+.idea/
+./java/.idea/
+./python/.idea/
+./go/.idea/
+all.iml
