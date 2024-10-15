@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/all/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/all/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java/api-gateway-example/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java/api-gateway-example/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java/cache-example/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java/cache-example/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java/ci-cd-example/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java/ci-cd-example/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java/data-streaming-example/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java/data-streaming-example/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java/database-example/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java/database-example/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java/distributed-tracing-example/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java/distributed-tracing-example/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java/esb-example/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java/esb-example/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java/file-storage-example/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java/file-storage-example/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java/loadbalancer-proxy-example/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java/loadbalancer-proxy-example/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java/log-management-example/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java/log-management-example/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java/message-example/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java/message-example/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java/microservice-discovery-example/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java/microservice-discovery-example/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java/ml-bigdata-example/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java/ml-bigdata-example/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java/monitoring-alerting-example/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java/monitoring-alerting-example/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java/nosql-database-example/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java/nosql-database-example/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java/performance-testing-example/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java/performance-testing-example/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java/search-engine-example/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java/search-engine-example/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java/security-authentication-example/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java/security-authentication-example/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java/service-mesh-example/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java/service-mesh-example/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java/transaction-management-example/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java/transaction-management-example/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+  </component>
+</project>
