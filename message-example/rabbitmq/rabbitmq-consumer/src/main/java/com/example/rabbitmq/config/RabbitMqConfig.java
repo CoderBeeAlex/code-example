@@ -97,8 +97,8 @@ public class RabbitMqConfig {
     }
 
     @Bean
-    public Binding test2Bind(Queue test2Queue, DirectExchange test2Exchange) {
-        return BindingBuilder.bind(test2Queue).to(test2Exchange).with(properties.getTest2().getRoutingKey());
+    public Binding test2Bind() {
+        return BindingBuilder.bind(test2Queue()).to(test2Exchange()).with(properties.getTest2().getRoutingKey());
     }
 
     @Bean
@@ -117,5 +117,58 @@ public class RabbitMqConfig {
     @Bean
     public Binding test3Bind(FanoutExchange test3FanoutExchange, Queue test3queue) {
         return BindingBuilder.bind(test3queue).to(test3FanoutExchange);
+    }
+
+    // 多个队列绑定同一个交换机,使用相同的ruoting—key或者不同的ruotig-key进行绑定
+    @Bean
+    public DirectExchange exchange() {
+        return new DirectExchange("test-v1-exchange", true, false);
+    }
+
+    @Bean
+    public Queue queue1() {
+        return new Queue("test-queue1", true, false, false);
+    }
+
+    @Bean
+    public Queue queue2() {
+        return new Queue("test-queue2", true, false, false);
+    }
+
+    @Bean
+    public Binding binding1() {
+        return BindingBuilder.bind(queue1()).to(exchange()).with("common.routing.key");
+    }
+
+    @Bean
+    public Binding binding2() {
+        return BindingBuilder.bind(queue2()).to(exchange()).with("common.routing.key");
+    }
+
+    //一个队列可以绑定到多个交换机
+
+    @Bean
+    public Queue myQueue() {
+        return new Queue("myQueue", true, false, false);
+    }
+
+    @Bean
+    public DirectExchange exchange1() {
+        return new DirectExchange("exchange1", true, false);
+    }
+
+    @Bean
+    public DirectExchange exchange2() {
+        return new DirectExchange("exchange2", true, false);
+    }
+
+    @Bean
+    public Binding binding01() {
+        return BindingBuilder.bind(myQueue()).to(exchange1()).with("routing.key1");
+    }
+
+    @Bean
+    public Binding binding02() {
+        return BindingBuilder.bind(myQueue()).to(exchange2()).with("routing.key2");
     }
 }
