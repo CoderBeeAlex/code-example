@@ -1,0 +1,46 @@
+server:
+  port: 8081
+spring:
+  rabbitmq:
+    # 地址
+    host: localhost
+    # 端口号
+    port: 5672
+    # 账号
+    username: guest
+    # 密码
+    password: guest
+    listener:
+      direct:
+        # 消费者的消息确认模式，设定为手动确认（manual），自动确认（auto）,none
+        acknowledge-mode: manual
+    template:
+      # 配置发送消息时是否强制路由。
+      #	•	当 mandatory 设置为 true 时，如果消息无法路由到任何队列（即没有绑定符合的队列），RabbitMQ 会将消息返回给生产者（通过 ReturnCallback）。
+      #	•	如果 mandatory 为 false，则消息丢失（默认行为是将消息丢弃）。
+      #	•	强制路由适用于确保消息不丢失的场景，尤其是在要求严格消息投递保障的业务中。
+      mandatory: true
+    # 设置连接 RabbitMQ 服务器的超时时间，单位为毫秒。
+    connection-timeout: 15000
+    #  设置心跳间隔时间，单位为秒。
+    requested-heartbeat: 60
+
+logging:
+  level:
+    com:
+      example:
+        rabbitmq: debug
+
+rabbitmq:
+  test:
+    queueName: test-queue
+    exchangeName:  test-exchange
+    routingKey: test-routing
+  test2:
+    queueName: test2-queue
+    exchangeName: test2-exchange
+    routingKey: test2-routing
+  test3:
+    queueName: test2-queue
+    exchangeName: test2-exchange
+    routingKey: test2-routing
