@@ -30,13 +30,14 @@ public class TestProducerTest {
 
     @Test
     public void sendObjTest() {
-        final int SLEEP_TIME_MS = 3000; // 休眠时间，单位为毫秒
-        while (true) {
+        final int SLEEP_TIME_MS = 2000; // 休眠时间，单位为毫秒
+        for (int i = 0; i < 1000; i++) {
+
             log.info("Preparing to send message...");
 
             SearchDto searchDto = new SearchDto();
-            searchDto.setName("aaaaa");
-            searchDto.setValue("bbbbb");
+            searchDto.setName("a"+i);
+            searchDto.setValue(i+"");
 
             String exchangeName = properties.getTest().getExchangeName();
             String routingKey = properties.getTest().getRoutingKey();

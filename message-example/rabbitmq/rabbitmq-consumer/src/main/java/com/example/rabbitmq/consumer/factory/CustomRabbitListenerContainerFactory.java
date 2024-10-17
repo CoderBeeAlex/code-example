@@ -9,7 +9,7 @@ public class CustomRabbitListenerContainerFactory extends SimpleRabbitListenerCo
     @Override
     protected void initializeContainer(SimpleMessageListenerContainer instance, RabbitListenerEndpoint endpoint) {
         super.initializeContainer(instance, endpoint);
-        //进行声明，实现自动创建队列】交换机和绑定
+        //进行声明，实现自动创建队列交换机和绑定
         instance.setAutoDeclare(true);
         instance.setMissingQueuesFatal(true);
     }
