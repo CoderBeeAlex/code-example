@@ -1,4 +1,4 @@
-package com.example.rabbitmq;
+package com.example.rabbitmq.consumer;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.SpringApplication;

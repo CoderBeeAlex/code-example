@@ -1,4 +1,4 @@
-package com.example.rabbitmq.factory;
+package com.example.rabbitmq.consumer.factory;
 
 import org.springframework.amqp.rabbit.config.SimpleRabbitListenerContainerFactory;
 import org.springframework.amqp.rabbit.listener.RabbitListenerEndpoint;

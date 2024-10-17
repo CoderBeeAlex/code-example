@@ -1,10 +1,9 @@
-package com.example.rabbitmq.config;
+package com.example.rabbitmq.consumer.config;
 
-import com.example.rabbitmq.factory.CustomRabbitListenerContainerFactory;
+import com.example.rabbitmq.consumer.factory.CustomRabbitListenerContainerFactory;
 import org.springframework.amqp.core.AcknowledgeMode;
 import org.springframework.amqp.rabbit.config.SimpleRabbitListenerContainerFactory;
 import org.springframework.amqp.rabbit.connection.ConnectionFactory;
-import org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer;
 import org.springframework.amqp.support.converter.Jackson2JsonMessageConverter;
 import org.springframework.boot.autoconfigure.amqp.SimpleRabbitListenerContainerFactoryConfigurer;
 import org.springframework.context.annotation.Bean;

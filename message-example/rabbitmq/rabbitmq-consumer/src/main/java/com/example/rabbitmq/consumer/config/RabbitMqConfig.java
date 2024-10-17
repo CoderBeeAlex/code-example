@@ -1,6 +1,6 @@
-package com.example.rabbitmq.config;
+package com.example.rabbitmq.consumer.config;
 
-import com.example.rabbitmq.config.properties.RabbitMqProperties;
+import com.example.rabbitmq.consumer.config.properties.RabbitMqProperties;
 import org.springframework.amqp.core.Binding;
 import org.springframework.amqp.core.BindingBuilder;
 import org.springframework.amqp.core.DirectExchange;

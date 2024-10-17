@@ -1,4 +1,4 @@
-package com.example.rabbitmq.config.properties;
+package com.example.rabbitmq.consumer.config.properties;
 
 import lombok.Data;
 
